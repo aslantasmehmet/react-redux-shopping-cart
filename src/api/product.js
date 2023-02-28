@@ -13,9 +13,16 @@ export const products = [
     },
     {
         id: 3,
-        name: 'Eti Gong Pops Mısır Patlağı',
-        price: "₺17,60" ,
-        img_url : "https://getir.com/urun/eti-gong-pops-sade-JcblqpJP89/"
+        name: 'Eti Browni Gold Mini Çikolatalı Kek',
+        price: "₺22,00" ,
+        img_url : "https://cdn.getir.com/product/5612627e1a6f060c00216176_tr_1599807566628.jpeg"
+    },
+    {
+        id: 4,
+        name: 'Oreo',
+        price: "₺23,10" ,
+        img_url : "https://cdn.getir.com/product/5768159778519d0300465f7d_tr_1633682258759.jpeg"
     }
+    
   ];
-  
+export default products;
