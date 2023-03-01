@@ -1,5 +1,6 @@
 import react, { useState, useEffect } from "react";
 import productsData from "../api/product";
+import {SlBasket} from "react-icons/sl"
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -10,8 +11,8 @@ export default function Home() {
 
   return (
     <>
-      <button className="flex justify-end border mx-10 mt-2 rounded font-semibold bg-purple-500 text-white py-1 hover:text-black hover:bg-white duration-300 hover:border-purple-500 border-black">
-        Sepete Git
+      <button className="mt-4 ml-96  translate-x-96">
+      <SlBasket size={36}/>
       </button>
       <div className="flex flex-row mt-8  ml-8 mb-8 justify-center grid grid-cols-4 gap-4">
         {products.length &&
